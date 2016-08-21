@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62601F711D69C6120083F13A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62601F701D69C6120083F13A /* AppDelegate.swift */; };
+		62601F731D69C6120083F13A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62601F721D69C6120083F13A /* Assets.xcassets */; };
+		62601F9A1D69C7B60083F13A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62601F991D69C7B60083F13A /* main.swift */; };
+		62FBC2D11D6A086F00425B5C /* AppBackgroundHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FBC2D01D6A086F00425B5C /* AppBackgroundHelper.swift */; };
+		62FBC2D31D6A21E600425B5C /* ExtWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FBC2D21D6A21E600425B5C /* ExtWindow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62601F6D1D69C6120083F13A /* ChangeDesktopFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeDesktopFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62601F701D69C6120083F13A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62601F721D69C6120083F13A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62601F771D69C6120083F13A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62601F991D69C7B60083F13A /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		62FBC2D01D6A086F00425B5C /* AppBackgroundHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppBackgroundHelper.swift; sourceTree = "<group>"; };
+		62FBC2D21D6A21E600425B5C /* ExtWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtWindow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62601F6A1D69C6120083F13A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62601F641D69C6120083F13A = {
+			isa = PBXGroup;
+			children = (
+				62601F6F1D69C6120083F13A /* ChangeDesktopFix */,
+				62601F6E1D69C6120083F13A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62601F6E1D69C6120083F13A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62601F6D1D69C6120083F13A /* ChangeDesktopFix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62601F6F1D69C6120083F13A /* ChangeDesktopFix */ = {
+			isa = PBXGroup;
+			children = (
+				62601F701D69C6120083F13A /* AppDelegate.swift */,
+				62FBC2D01D6A086F00425B5C /* AppBackgroundHelper.swift */,
+				62FBC2D21D6A21E600425B5C /* ExtWindow.swift */,
+				62601F991D69C7B60083F13A /* main.swift */,
+				62601F771D69C6120083F13A /* Info.plist */,
+				62601F721D69C6120083F13A /* Assets.xcassets */,
+			);
+			path = ChangeDesktopFix;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62601F6C1D69C6120083F13A /* ChangeDesktopFix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62601F901D69C6120083F13A /* Build configuration list for PBXNativeTarget "ChangeDesktopFix" */;
+			buildPhases = (
+				62601F691D69C6120083F13A /* Sources */,
+				62601F6A1D69C6120083F13A /* Frameworks */,
+				62601F6B1D69C6120083F13A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeDesktopFix;
+			productName = ChangeDesktopFix;
+			productReference = 62601F6D1D69C6120083F13A /* ChangeDesktopFix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62601F651D69C6120083F13A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Gerwin van der Lugt";
+				TargetAttributes = {
+					62601F6C1D69C6120083F13A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 62601F681D69C6120083F13A /* Build configuration list for PBXProject "ChangeDesktopFix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62601F641D69C6120083F13A;
+			productRefGroup = 62601F6E1D69C6120083F13A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62601F6C1D69C6120083F13A /* ChangeDesktopFix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62601F6B1D69C6120083F13A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62601F731D69C6120083F13A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62601F691D69C6120083F13A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62FBC2D11D6A086F00425B5C /* AppBackgroundHelper.swift in Sources */,
+				62601F9A1D69C7B60083F13A /* main.swift in Sources */,
+				62601F711D69C6120083F13A /* AppDelegate.swift in Sources */,
+				62FBC2D31D6A21E600425B5C /* ExtWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		62601F8E1D69C6120083F13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62601F8F1D69C6120083F13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		62601F911D69C6120083F13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ChangeDesktopFix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gerwin3.ChangeDesktopFix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62601F921D69C6120083F13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ChangeDesktopFix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gerwin3.ChangeDesktopFix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62601F681D69C6120083F13A /* Build configuration list for PBXProject "ChangeDesktopFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62601F8E1D69C6120083F13A /* Debug */,
+				62601F8F1D69C6120083F13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62601F901D69C6120083F13A /* Build configuration list for PBXNativeTarget "ChangeDesktopFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62601F911D69C6120083F13A /* Debug */,
+				62601F921D69C6120083F13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62601F651D69C6120083F13A /* Project object */;
+}
